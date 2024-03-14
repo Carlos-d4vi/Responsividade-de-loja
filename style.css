@@ -42,6 +42,22 @@ section div.container{
     margin-bottom: 40px;
 }
 
+.bemVindo{
+    color: blue;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.apresentacao{
+    font-size: medium;
+    font-weight: 400;
+}
+
+img{
+    max-width: 320px;
+    max-height: 320px;
+}
+
 aside{
     display: flex;
     flex-wrap: wrap;
@@ -58,7 +74,7 @@ aside h2, section h2{
     color: blue;
     font-style: italic;
     padding-bottom: 10px;
-    border-bottom: 2px solid blue;
+    border-bottom: 1px solid black;
     margin-bottom: 30px;
     width: 100%;
 }
@@ -96,6 +112,10 @@ aside h2, section h2{
     color: white;
     font-weight: bold;
     font-size: medium;
+}
+
+.botaoAdicionarAoCarrinho:hover{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 640px ) {
